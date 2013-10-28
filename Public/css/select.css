@@ -1,0 +1,33 @@
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  min-width: 120px;
+  border: 1px solid #CCC;
+  padding: 2px 8px;
+  text-align: center;
+  margin: 0 5px 5px 0;
+  background: #FFF;
+  color: #333;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+label:hover {
+  border-color: #ADADAD;
+  background: #EBEBEB;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label {
+  order: 0;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: #FFF;
+}
+
+input[type=checkbox]:checked + label:hover {
+  background-color: #47a447;
+  border-color: #398439;
+}

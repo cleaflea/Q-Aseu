@@ -1,0 +1,433 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!-- saved from url=(0024)http://segmentfault.com/ -->
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="apple-itunes-app" content="app-id=593777236">
+    <meta property="qc:admins" content="15317273575564615446375">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SegmentFault</title>
+    <meta name="description" content="专业面向开发者的中文技术问答社区">
+    <meta name="keywords" content="SegmentFault SF 开发者 程序员 中文 问答 社区">
+
+    <link rel="stylesheet" href="http://s.segmentfault.com/css/normalize.css?13.10.24.1">
+    <link rel="stylesheet" href="http://s.segmentfault.com/css/style.css?13.10.24.1">
+    <link rel="stylesheet" href="http://s.segmentfault.com/css/responsive.css?13.10.24.1">
+
+    <script type="text/javascript" async="" src="__JS__/ga.js"></script>
+    <script type="text/javascript" async="" src="./SegmentFault_files/hm.js"></script>
+    <script src="./SegmentFault_files/jquery.js" style="color: rgb(51, 51, 51);"></script>
+    <script src="__JS__/lib.js"></script>
+
+    <!--[if gt IE 8]>
+    <link rel="stylesheet" href="http://s.segmentfault.com/css/ie.css?13.10.24.1"/>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <script src="http://s.segmentfault.com/js/html5.js?13.10.22.3"></script>
+    <link rel="stylesheet" href="http://s.segmentfault.com/css/old-ie.css?13.10.24.1"/>
+    <![endif]-->
+
+    <link href="http://s.segmentfault.com/img/icon/favicon.ico?13.10.21.1" rel="shortcut icon" type="image/x-icon">
+    <link rel="search" type="application/opensearchdescription+xml" href="http://segmentfault.com/opensearch.xml"
+          title="SegmentFault">
+
+    <link rel="apple-touch-icon-precomposed" href="http://s.segmentfault.com/img/icon/sf-57.png?13.10.21.1">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="http://s.segmentfault.com/img/icon/sf-72.png?13.10.21.1">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="http://s.segmentfault.com/img/icon/sf-114.png?13.10.21.1">
+
+    <link rel="alternate" type="application/atom+xml" title="订阅 SegmentFault" href="http://segmentfault.com/feeds">
+
+
+</head>
+<body id="body">
+
+<input type="hidden" id="session"
+       data-user="{&quot;id&quot;:&quot;1030000000246353&quot;,&quot;name&quot;:&quot;zjh&quot;,&quot;url&quot;:&quot;http://segmentfault.com/u/zjh&quot;,&quot;rank&quot;:&quot;55&quot;}">
+
+<!--[if lte IE 8]>
+<div class="error chromeframe">您的浏览器版本<strong>很旧很旧</strong>，为了正常地访问网站，请升级您的浏览器 <a target="_blank"
+                                                                                  href="http://browsehappy.com">立即升级</a>
+</div>
+<![endif]-->
+
+
+<nav class="global-nav clearfix">
+    <a href="http://segmentfault.com/###" id="site-nav-btn">导航</a>
+    <ul class="site-nav mobi-hide">
+        <li><a href="./SegmentFault_files/SegmentFault.htm">问答</a></li>
+        <li><a href="http://segmentfault.com/blogs">博客</a></li>
+        <!-- <li><a href="http://segmentfault.com/news">新闻</a></li> -->
+        <li><a href="http://segmentfault.com/tags">标签</a></li>
+        <li><a href="http://segmentfault.com/users">用户</a></li>
+        <li><a href="http://segmentfault.com/badges">徽章</a></li>
+        <li><a href="http://segmentfault.com/events">活动</a></li>
+    </ul>
+    <ul class="user-nav">
+        <li class="has-dropdown">
+            <a href="http://segmentfault.com/ask">撰写</a>
+            <ul class="dropdown-item hid">
+                <li><a href="http://segmentfault.com/ask">提出问题</a></li>
+                <li><a href="http://segmentfault.com/write">撰写文章</a></li>
+                <li class="hr"><a href="http://segmentfault.com/drafts">草稿</a></li>
+            </ul>
+        </li>
+        <li class="has-dropdown">
+            <a id="msg-link" href="http://segmentfault.com/user/events">消息<span class=""></span></a>
+            <ul id="msg-box" class="dropdown-msg"></ul>
+        </li>
+        <li class="has-dropdown">
+            <a href="http://segmentfault.com/u/zjh">zjh <i class="i-arrow-s"></i></a>
+            <ul class="dropdown-item hid">
+                <li><a href="http://segmentfault.com/u/zjh">我的主页</a></li>
+                <li><a href="http://segmentfault.com/user/settings">帐号设置</a></li>
+                <li><a href="http://segmentfault.com/user/logout">退出</a></li>
+                <li class="hr"><a href="http://segmentfault.com/faq">帮助中心</a></li>
+                <li><a href="http://0x.segmentfault.com/">建议反馈</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<!-- end .global-nav -->
+<header class="site-header">
+    <div class="inner clearfix">
+        <div class="head-name">
+            <a href="./SegmentFault_files/SegmentFault.htm">
+                <strong>搜索你想要的问题</strong>
+            </a>
+        </div>
+        <div class="head-search">
+            <form id="search" action="http://segmentfault.com/search">
+                <input type="text" class="text-27 input-search" name="q" autocomplete="off" spellcheck="false"
+                       placeholder="搜索问题，标签，用户" style="z-index: 10;">
+                <button class="btn-search" type="submit">搜索</button>
+            </form>
+            <ul id="search-box" style="display: none;"></ul>
+        </div>
+        <!--<ul class="head-nav">-->
+        <!--<li class="current"><a href="./SegmentFault_files/SegmentFault.htm">技术问答</a></li>-->
+        <!--<li><a href="http://segmentfault.com/101">新手问答</a></li>-->
+        <!--<li><a href="http://segmentfault.com/sites">子站问答</a></li>-->
+        <!--</ul>-->
+        <!--<div class="head-misc">-->
+        <!--<span>找不到答案？</span> <a class="btn-f-m action" href="http://segmentfault.com/ask">+ 提问</a>-->
+        <!--</div>-->
+    </div>
+</header>
+<!-- end .site-header -->
+
+<div class="wrap">
+    <div class="inner edge">
+        <div id="main">
+            <div class="tab-nav">
+                <h2 class="common-title">最新的问题</h2>
+                <nav class="sub-tab">
+                    <a class="current" href="./SegmentFault_files/SegmentFault.htm">最新的</a>
+                    <a href="http://segmentfault.com/hottest">热门的</a>
+                    <a href="http://segmentfault.com/unanswered">未回答的</a>
+                </nav>
+            </div>
+
+            <div id="content">
+                <?php if(is_array($questions)): foreach($questions as $key=>$vo): ?><article class="post" id="q-1010000000264107">
+                        <div class="p-summary">
+                            <a class="author tip-pop" href="http://segmentfault.com/u/letica"
+                               data-tip="n:letica &lt;cite&gt;•&lt;/cite&gt; &lt;strong&gt;89&lt;/strong&gt;"
+                               original-title="">
+                                <h2><a href="__ROOT__/Ask/showsingle?qid=<?php echo ($vo["question_id"]); ?>" title="<?php echo ($vo["title"]); ?>"><?php echo ($vo["title"]); ?></a></h2>
+
+                                <div class="meta">
+                                    <ul class="meta-tags">
+                                        <li><i class="i-tag"></i></li>
+                                        <li><a data-tid="1040000000089899"
+                                               href="http://segmentfault.com/t/%E5%89%8D%E7%AB%AF">
+                                            <?php switch($vo["category_id"]): case "1": ?>生活娱乐<?php break;?>
+                                                <?php case "2": ?>学习考试<?php break;?>
+                                                <?php case "3": ?>技术专业<?php break;?>
+                                                <?php case "4": ?>规章制度<?php break;?>
+                                                <?php case "5": ?>其他<?php break; endswitch;?>
+
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    &nbsp;
+                                    <span class="datetime"><i class="i-time"></i><?php echo ($vo["date_entered"]); ?></span>
+                                </div>
+                                <?php echo ($vo["username"]); ?>
+                        </div>
+                    </article><?php endforeach; endif; ?>
+
+                <div class="pagenav"><a href="http://segmentfault.com/newest?page=1" class="current">1</a><a
+                        href="http://segmentfault.com/newest?page=2">2</a><a
+                        href="http://segmentfault.com/newest?page=3">3</a><a
+                        href="http://segmentfault.com/newest?page=4">4</a><a
+                        href="http://segmentfault.com/newest?page=5">5</a><span>…</span><a class="next"
+                                                                                           href="http://segmentfault.com/newest?page=2">下一页</a>
+                </div>
+            </div>
+            <!-- end #content -->
+        </div>
+        <!-- end #main -->
+
+        <div id="secondary">
+
+            <aside id="profile-tab">
+                <ul class="list-menu" style="margin-bottom: -8px;">
+                    <li><a href="http://segmentfault.com/bookmarked">我收藏的内容</a></li>
+                    <li><a href="http://segmentfault.com/users/following">我关注的人</a></li>
+                    <li><a href="http://segmentfault.com/user/invitation">邀请朋友加入</a></li>
+                </ul>
+            </aside>
+
+            <aside class="box follow-tags">
+                <h3>关注 <a href="http://segmentfault.com/tags/following">3</a> 个标签</h3>
+                <ul class="tag-ranking-list show-pop-tag">
+                    <li>
+                        <a data-tid="1040000000090169" href="http://segmentfault.com/t/ajax" class="tag">ajax</a>
+                    </li>
+                    <li>
+                        <a data-tid="1040000000089534" href="http://segmentfault.com/t/python" class="tag tag-img"
+                           style="background-image: url(http://sfault-avatar.b0.upaiyun.com/338/144/3381442710-i-1040000000089534_icon);">python</a>
+                    </li>
+                    <li>
+                        <a data-tid="1040000000089564" href="http://segmentfault.com/t/django" class="tag tag-img"
+                           style="background-image: url(http://sfault-avatar.b0.upaiyun.com/106/562/1065623784-i-1040000000089564_icon);">django</a>
+                    </li>
+                </ul>
+            </aside>
+
+            <a href="http://segmentfault.com/article/apply" target="_blank"
+               style="display: block; margin-top: 20px"><img src="./SegmentFault_files/3710900358.png"
+                                                             alt="文章：申请内测"></a>
+            <!-- <a href="http://segmentfault.com/workspace" target="_blank" style="display: block; margin-top: 5px"><img src="http://blog.segmentfault.com/usr/uploads/2013/05/3522521191.png" alt="我的工作空间" /></a> -->
+
+            <aside class="box">
+                <a href="http://segmentfault.com/user/timeline" class="tip-pop i-more right" data-tip="s:更多"
+                   original-title="">更多</a>
+
+                <h3>新鲜事</h3>
+                <ul class="timestream show-pop-tag">
+                    <li>
+                        <h4>
+                            <a href="http://segmentfault.com/q/1010000000325179/a-1020000000325427">比较好的项目管理系统有哪些推荐的？</a>
+                        </h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/jysperm">精英王子</a> 回答了该问题</span>
+                    </li>
+                    <li>
+                        <h4>
+                            <a href="http://segmentfault.com/q/1010000000325417/a-1020000000325420">路由器192.168.1.1无法连接</a>
+                        </h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/jysperm">精英王子</a> 回答了该问题</span>
+                    </li>
+                    <li>
+                        <h4><a href="http://segmentfault.com/q/1010000000177799/a-1020000000178634">firefox
+                            修改密码居然修改的是浏览器记住的密码</a></h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/lilydjwg">依云</a> 赞了该答案</span>
+                    </li>
+                    <li>
+                        <h4><a href="http://segmentfault.com/c/1050000000325413">linux下用于前端开发的http代理工具或浏览器插件哪个比较好？</a>
+                        </h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/lilydjwg">依云</a> 评论了该问题</span>
+                    </li>
+                    <li>
+                        <h4><a href="http://segmentfault.com/q/1010000000175154/a-1020000000325408">linux下用于前端开发的http代理工具或浏览器插件哪个比较好？</a>
+                        </h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/lilydjwg">依云</a> 回答了该问题</span>
+                    </li>
+                    <li>
+                        <h4><a href="http://segmentfault.com/q/1010000000325305/a-1020000000325404">Linux
+                            下有什么可以按照用户(或进程)来统计流量的方法么？</a></h4>
+                        <span><a class="trigger" href="http://segmentfault.com/u/lilydjwg">依云</a> 回答了该问题</span>
+                    </li>
+                </ul>
+            </aside>
+
+
+        </div>
+        <!-- end #secondary -->
+    </div>
+</div>
+<!-- end .wrap -->
+
+<footer id="footer">
+    <div class="inner mobi-hide">
+        <dl class="site-link">
+            <dt>网站相关</dt>
+            <dd><a href="http://segmentfault.com/about">关于我们</a></dd>
+            <dd><a href="http://segmentfault.com/license">服务条款</a></dd>
+            <dd><a href="http://segmentfault.com/faq">帮助中心</a></dd>
+            <dd><a href="http://segmentfault.com/q/1010000000187808">编辑器语法</a></dd>
+            <dd><a href="http://0x.segmentfault.com/">建议反馈</a></dd>
+        </dl>
+        <dl class="site-link">
+            <dt>联系合作</dt>
+            <dd><a href="http://segmentfault.com/link">合作伙伴</a></dd>
+            <dd><a href="http://segmentfault.com/advertise">广告投放</a></dd>
+            <dd><a href="http://segmentfault.com/press">媒体报道</a></dd>
+        </dl>
+        <dl class="site-link">
+            <dt>常用链接</dt>
+            <dd><a href="http://blog.segmentfault.com/" target="_blank">开发日志</a></dd>
+            <dd><a href="http://segmentfault.com/mobileapp">移动应用</a></dd>
+            <dd><a href="http://segmentfault.com/events?category=3">黑客马拉松</a></dd>
+            <dd><a href="http://yumiwan.com/" target="_blank">玉米湾域名</a></dd>
+        </dl>
+        <dl class="site-link">
+            <dt>关注我们</dt>
+            <dd><a href="http://segmentfault.com/feeds">RSS 订阅</a></dd>
+            <dd><a href="http://weibo.com/segmentfault" target="_blank">新浪微博</a></dd>
+            <dd><a href="http://twitter.com/segment_fault" target="_blank">Twitter</a></dd>
+            <dd><a href="http://t.qq.com/segmentfault" target="_blank">腾讯微博</a></dd>
+            <dd><a href="http://page.renren.com/699146294" target="_blank">人人网</a></dd>
+        </dl>
+        <dl class="site-link" id="license">
+            <dt>内容许可</dt>
+            <dd>除特别说明外，用户内容均采用 <a rel="license" target="_blank"
+                                  href="http://creativecommons.org/licenses/by-sa/3.0/cn/">知识共享署名-相同方式共享 3.0
+                中国大陆许可协议</a> 进行许可
+            </dd>
+            <dd>本站由 <a target="_blank" href="http://elinkhost.com/">Elinkhost</a> 提供 IDC 服务<br><a target="_blank"
+                                                                                                  href="https://www.upyun.com/?utm_source=segmentfault&utm_medium=link&utm_campaign=upyun&md=segmentfault">又拍云</a>
+                提供 CDN 存储服务
+            </dd>
+        </dl>
+    </div>
+    <div class="inner copyright">
+        Copyright © 2011-2013 SegmentFault. 当前呈现版本 13.10.21 <br>京ICP备12004937号, 京公网安备110108008332号
+    </div>
+</footer>
+
+
+<a id="backtop" class="mobi-hide hidden" href="http://segmentfault.com/#body">回顶部</a>
+
+<script>$(document).ready(function () {
+    $('#session').login();
+    $('input[holder],textarea[holder]').placeholder();
+    $('input.input-error,textarea.input-error').keyup(function () {
+        $('.text-error', $(this).removeClass('input-error').parent()).remove();
+    });
+    $('.has-dropdown').hover(function () {
+        var $item = $('.dropdown-item', this);
+        $item.toggleClass('hid');
+    });
+    $('#site-nav-btn').click(function () {
+        $('.site-nav').toggleClass('mobi-hide');
+        return false;
+    });
+    $('html').click(function () {
+        $('.site-nav').addClass('mobi-hide');
+    });
+    $(document).scroll(function () {
+        if ($(this).scrollTop() > 720) {
+            $('#backtop').removeClass('hidden');
+        } else {
+            $('#backtop').addClass('hidden');
+        }
+    });
+    $('#backtop').click(function () {
+        $('body,html').animate({scrollTop: 0});
+        return false;
+    })
+    $('#msg-link').eventPopup({url: 'http://x.segmentfault.com/event'});
+    $('.meta-tags a, .tag').tagPopup('http://segmentfault.com/api/tag', '#main');
+    $('#search .input-search').searchAutoComplete({url: 'http://x.segmentfault.com/autocomplete', insertAfter: '#search', searchUrl: 'http://segmentfault.com/search', askUrl: 'http://segmentfault.com/ask', ask: '#top-nav a.btn-m'});
+    $('a.msg-close', $('#msg-bar').fadeIn().sticky()).click(function () {
+        $(this).parent().fadeOut(function () {
+            $(this).parent().remove();
+        });
+        return false;
+    });
+    var topNav = $('.head-nav'), search = $('#search .input-search').css({'position': 'relavtive', 'z-index': 10}), searchWidth = search.outerWidth();
+    search.focus(function () {
+        search.animate({width: searchWidth * 1.5}, 'fast');
+        topNav.hide();
+    }).blur(function () {
+        if (0 == search.val().length) {
+            search.animate({width: searchWidth}, 'fast', function () {
+                topNav.show();
+            });
+        }
+    });
+    $('.tip-pop').each(function () {
+        var t = $(this), str = t.data('tip');
+        if (!!!str) {
+            return;
+        }
+        t.removeAttr('title');
+        var parts = str.split(':');
+        $(this).tipsy({'html': true, 'gravity': parts.shift(), 'fallback': parts.join(':')});
+    });
+    if ($('#profile-tab,.greeting').length > 0) {
+        $.get('http://x.segmentfault.com/news', function (o) {
+            if (!o.status && o.data) {
+                var cv = $.cookie('sfns_viewed'), viewed = (!!cv ? cv + ',' : '');
+                if (viewed.indexOf(o.data[0]) < 0) {
+                    var a = $('<a href="' + o.data[1] + '" target="_blank" class="update-log rounded-2">'
+                            + '<strong>' + o.data[3] + '更新</strong> ' + o.data[2] + '</a>').prependTo('#secondary').animate({backgroundColor: '#ffebb7'}, 'slow',function () {
+                                $(this).animate({backgroundColor: '#FFF7E2'}, 'slow');
+                            }).click(function () {
+                                $.cookie('sfns_viewed', viewed + o.data[0], {path: '/', expires: 30});
+                                $(this).remove();
+                            });
+                }
+            }
+        }, 'jsonp');
+    }
+    if (login) {
+        $('#main, .layout-main').highlightTag({url: 'http://x.segmentfault.com/tag/following', selector: '#content article .meta-tags li a, #user-question article .meta-tags li a,'
+                + ' .article-item .tags li a', className: 'q-highlight'});
+    } else if (0 == $('.auth-login,.session-form,.session-finished').length) {
+        if (1 != $.cookie('sfln_viewed')) {
+            $.cookie('sfln_viewed', 1, {path: '/'});
+            $.cookie('sfln_available', 1, {path: '/'});
+        } else if (1 == $.cookie('sfln_available')) {
+            $('.i-cancel', $('.login-notify').css('bottom', -60).removeClass('hidden').animate({'bottom': 0})).click(function () {
+                $.cookie('sfln_available', 0, {path: '/'});
+                $(this).parents('.login-notify').animate({'bottom': -60}, function () {
+                    $(this).remove();
+                });
+                return false;
+            });
+        }
+    }
+    var tagInterestShow = false;
+    $('.tag-interest-click').click(function () {
+        if (!tagInterestShow) {
+            $('.tag-interest-list').fadeIn();
+            tagInterestShow = true;
+        } else {
+            $('.tag-interest-list').fadeOut();
+            tagInterestShow = false;
+        }
+        return false;
+    });
+});
+(function () {
+    var hm = document.createElement('script');
+    hm.type = 'text/javascript';
+    hm.async = true;
+    hm.src = '//hm.baidu.com/hm.js?e23800c454aa573c0ccb16b52665ac26';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-918487-8']);
+_gaq.push(['_trackPageview']);
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();</script>
+
+
+<div class="s-loading" style="display: none;">加载中</div>
+<div>
+    <object id="ClCache" click="sendMsg" host="" width="0" height="0"></object>
+</div>
+</body>
+</html>

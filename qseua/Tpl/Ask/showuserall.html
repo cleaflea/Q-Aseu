@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<if condition="emptyflag eq 1">你还没有任何回答
+    <else />
+    <foreach name="answers" item="vo">
+        <a href="__ROOT__/Ask/showusersingle?qid={$vo.question_id}">{$vo.title}</a></br>
+    </foreach>
+</if>
+
+</body>
+</html>
